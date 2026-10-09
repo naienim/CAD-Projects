@@ -1,39 +1,76 @@
-module datapath(input clk, rst, sel, input [7:0] X, input [2:0] N, output ov, err, output [31:0] Y);
-    wire [31:0] next_x, next_x_power, next_sum;
-    wire [31:0] x_out_pipe1, power_out_pipe1, sum_out_pipe1;
-    wire [31:0] x_out_pipe2, power_out_pipe2, sum_out_pipe2;
-    wire [31:0] x_out_pipe3, power_out_pipe3, sum_out_pipe3;
-    wire [31:0] x_out_pipe4, power_out_pipe4, sum_out_pipe4;
-    wire next_ov, ov_out_pipe1, ov_out_pipe2, ov_out_pipe3, ov_out_pipe4;
-    wire sel_out_pipe1, sel_out_pipe2, sel_out_pipe3, sel_out_pipe4;
+module datapath #(
+    parameter WIDTH = 4,
+    parameter SIZE_IFMAP = 4,
+    parameter SIZE_FILTER_SRAM = 4,
+    parameter ADDR_WIDTH_IFMAP = $clog2(SIZE_IFMAP),
+    parameter ADDR_WIDTH_FILTER = $clog2(SIZE_FILTER_SRAM)
+) (
+    input clk,
+    input rst,
+    input rst_reg,
+    input en_reg,
+  
+    input ifmap_read_en,
+    input ifmap_write_en,
+    input [ADDR_WIDTH_IFMAP-1:0] ifmap_address_read, 
+    input [ADDR_WIDTH_IFMAP-1:0] ifmap_address_write,
+    input [WIDTH-1:0] ifmap_in,
 
-    wire [31:0] const1 = 32'b01111111111111111111111111111111;           // 1
-    wire [31:0] const2 = 32'b11000000000000000000000000000000;           // -1/2
-    wire [31:0] const3 = 32'b00101010101010101010101010101010;           // 1/3
-    wire [31:0] const4 = 32'b11100000000000000000000000000000;           // -1/4
-    wire [31:0] const5 = 32'b00011001100110011001100110011001;           // 1/5
-    wire [31:0] const6 = 32'b11101010101010101010101010101011;           // -1/6
-    wire [31:0] const7 = 32'b00010010010010010010010010010010;           // 1/7
-    wire [31:0] const8 = 32'b11110000000000000000000000000000;           // -1/8
+    input filter_read_en,
+    input filter_write_en,
+    input [ADDR_WIDTH_FILTER-1:0] filter_address_read, 
+    input [ADDR_WIDTH_FILTER-1:0] filter_address_write,
+    input [WIDTH-1:0] filter_in,
 
+    output  [WIDTH-1:0] out
+);
 
-    initial_part init(X, x_out_pipe4, power_out_pipe4, sum_out_pipe4, ov_out_pipe4, sel, 
-                      next_x, next_x_power, next_sum, next_ov);
+    wire add_co;
+    wire [WIDTH-1:0] ifmap_out, filter_out, mult_out, add_out, reg_out, mid_reg_out;
 
-    pipe pp1(clk, rst, sel, next_ov, next_x, next_x_power, next_sum, N, 3'd0, 3'd4, const1, const5,
-            x_out_pipe1, power_out_pipe1, sum_out_pipe1, sel_out_pipe1, ov_out_pipe1);
+    IFMapScratchPad #(
+        .WIDTH(WIDTH),
+        .SIZE(SIZE_IFMAP),
+        .ADDR_WIDTH(ADDR_WIDTH_IFMAP)
+    ) ifmap_reg (
+        .clk(clk), 
+        .read_en(ifmap_read_en), 
+        .write_en(ifmap_write_en), 
+        .address_read(ifmap_address_read), 
+        .address_write(ifmap_address_write), 
+        .data_in(ifmap_in),
+        .data_out(ifmap_out)
+    );
 
-    pipe pp2(clk, rst, sel_out_pipe1, ov_out_pipe1, x_out_pipe1, power_out_pipe1, sum_out_pipe1, N, 3'd1, 3'd5, const2, const6,
-            x_out_pipe2, power_out_pipe2, sum_out_pipe2, sel_out_pipe2, ov_out_pipe2);
+    FilterScratchPad #(
+        .WIDTH(WIDTH),
+        .SIZE(SIZE_FILTER_SRAM),
+        .ADDR_WIDTH(ADDR_WIDTH_FILTER)
+    ) filter_sram (
+        .clk(clk), 
+        .read_en(filter_read_en), 
+        .write_en(filter_write_en), 
+        .address_read(filter_address_read), 
+        .address_write(filter_address_write), 
+        .data_in(filter_in),
+        .data_out(filter_out)
+    );
 
-    pipe pp3(clk, rst, sel_out_pipe2, ov_out_pipe2, x_out_pipe2, power_out_pipe2, sum_out_pipe2, N, 3'd2, 3'd6, const3, const7,
-            x_out_pipe3, power_out_pipe3, sum_out_pipe3, sel_out_pipe3, ov_out_pipe3);
+    multiplier #(.WIDTH(WIDTH)) mult (.num1(filter_out), .num2(ifmap_out), .out(mult_out));
+    
+    final_register #(.WIDTH(WIDTH)) mid_reg (.clk(clk), .rst(rst | rst_reg),.en(en_reg),.pin(mult_out),.pout(mid_reg_out));
 
-    pipe pp4(clk, rst, sel_out_pipe3, ov_out_pipe3, x_out_pipe3, power_out_pipe3, sum_out_pipe3, N, 3'd3, 3'd7, const4, const8,
-            x_out_pipe4, power_out_pipe4, sum_out_pipe4, sel_out_pipe4, ov_out_pipe4);
+    adder #(.WIDTH(WIDTH)) add (.num1(mult_out), .num2(reg_out), .out(add_out), .co(add_co));
 
-    assign Y = sum_out_pipe4;
-    assign ov = ov_out_pipe4;
-    assign err = (x_out_pipe4 == 32'h80000000);
+    final_register #(
+        .WIDTH(WIDTH)
+    ) final_reg(
+        .clk(clk), 
+        .rst(rst | rst_reg),
+        .en(en_reg),
+        .pin(add_out),
+        .pout(reg_out)
+    );
 
+    assign out = reg_out;
 endmodule
