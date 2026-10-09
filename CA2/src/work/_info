@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vbuffer
+!s110 1730373465
+!i10b 1
+!s100 oVKz[oboXdl@5VlfaS8dN0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1SVgbZVThHa:ZMNlHQhTh2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/USER/myFolder/mainFolder/cad/CA2/CA2
+w1730371378
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v
+!i122 53
+L0 1 48
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1730373465.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vbuffer_fifo
+Z6 !s110 1730549269
+!i10b 1
+!s100 U;`@Jz>B>h0dDNjdGX`lR2
+R0
+I2bSzCLMdSESVDcUWMDi0d3
+R1
+Z7 dC:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2
+w1730549014
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v
+!i122 100
+L0 1 60
+R3
+r1
+!s85 0
+31
+!s108 1730549268.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v|
+!i113 1
+R4
+R5
+vcircular_buffer
+R6
+!i10b 1
+!s100 86@1o`RLG<3jNi2`D6m3O0
+R0
+IU0@a0_;X]LSoAaO^?P;UY3
+R1
+R7
+w1730376428
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v
+!i122 101
+L0 1 16
+R3
+r1
+!s85 0
+31
+Z8 !s108 1730549269.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v|
+!i113 1
+R4
+R5
+vcircular_buffer_tb
+R6
+!i10b 1
+!s100 ^KUXfEolm>AlbghaNCBao3
+R0
+IO?9`;8B>9@=c3hUWSECPe3
+R1
+R7
+w1730378486
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v
+!i122 102
+L0 3 143
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v|
+!i113 1
+R4
+R5
+vCircularFIFOBuffer
+!s110 1730360047
+!i10b 1
+!s100 5SDB50h3:;a?Jh?P;2^fb3
+R0
+I=KXGij0zj;cm`8>EEJWdR3
+R1
+R2
+w1730359224
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v
+!i122 24
+L0 1 68
+R3
+r1
+!s85 0
+31
+!s108 1730360047.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v|
+!i113 1
+R4
+R5
+n@circular@f@i@f@o@buffer
+vcontroller
+R6
+!i10b 1
+!s100 2Y@<IGh<n=mXFg9zK6z343
+R0
+I_VQPgg2EG`HeV3Q5a4i<X1
+R1
+R7
+w1730549168
+8C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v
+!i122 103
+L0 4 37
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v|
+!i113 1
+R4
+R5

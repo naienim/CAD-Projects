@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Amin/Documents/Term_5/CAD/CA/CA1
+vadder
+Z0 !s110 1729167367
+!i10b 1
+!s100 P6z5;ik<F;6ISm0hO4?CH2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImHIkRS8OEdkPJA_Y:6E@m3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1
+Z4 w1728738137
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/adder.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/adder.v
+!i122 309
+Z5 L0 1 7
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1729167367.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/adder.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vconcat
+R0
+!i10b 1
+!s100 85T1FKh?ee1IcX?TgUEYg0
+R1
+I@E=?_3nXSUaUa<NERhCzD1
+R2
+R3
+R4
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/concat.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/concat.v
+!i122 310
+Z10 L0 1 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/concat.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/concat.v|
+!i113 1
+R8
+R9
+vcontroller
+R0
+!i10b 1
+!s100 HfJCcHzU^?M0<BE17oCKT3
+R1
+I55hjDKGTaCLA<8EzlJ<Ec3
+R2
+R3
+w1729167286
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/controller.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/controller.v
+!i122 311
+L0 23 75
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/controller.v|
+!i113 1
+R8
+R9
+vcounter
+R0
+!i10b 1
+!s100 B5oBCo7iK_B4EfaJ;]^bM3
+R1
+IfX8EUfMNIF7ZgDDLi9l5f2
+R2
+R3
+R4
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/counter.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/counter.v
+!i122 312
+L0 2 20
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/counter.v|
+!i113 1
+R8
+R9
+vdatapath
+R0
+!i10b 1
+!s100 3ZPPA[GzWSbQUH4d_E7761
+R1
+IEScA?`7Im3jYN1=?017@R0
+R2
+R3
+w1729164075
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v
+!i122 313
+L0 2 47
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v|
+!i113 1
+R8
+R9
+vdown_counter
+R0
+!i10b 1
+!s100 1P:cFiCg4J7=Z@]BQOFU;2
+R1
+IoWhQ`U9c<;n5KUjzP>f`S3
+R2
+R3
+R4
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v
+!i122 314
+Z11 L0 1 13
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v|
+!i113 1
+R8
+R9
+vinput_ram
+Z12 !s110 1729167368
+!i10b 1
+!s100 T3T8cfL[i60Hml@;lZKl]0
+R1
+I?Oa1K1cWz8z9T33iTi9:Z2
+R2
+R3
+R4
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/input_ram.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/input_ram.v
+!i122 315
+Z13 L0 2 16
+R6
+r1
+!s85 0
+31
+Z14 !s108 1729167368.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/input_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/input_ram.v|
+!i113 1
+R8
+R9
+vmult
+R12
+!i10b 1
+!s100 fLJA4Kk7hIA97g7J[cBCO2
+R1
+Iz6_fWA1RCfk68TCdV8`bk3
+R2
+R3
+Z15 w1728738138
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/mult.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/mult.v
+!i122 316
+R5
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/mult.v|
+!i113 1
+R8
+R9
+voutput_ram
+R12
+!i10b 1
+!s100 aood7:m7=Lbmf^Uj<b81M0
+R1
+ICVo^45]T[6]CSzUTjT6CV1
+R2
+R3
+w1729164342
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v
+!i122 317
+L0 2 11
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v|
+!i113 1
+R8
+R9
+vregister
+R12
+!i10b 1
+!s100 VVN_OOUC8cnLNDLWY;1eh0
+R1
+IGaTfjE4`9_[QCUCfYF4ka0
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/register.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/register.v
+!i122 318
+R13
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/register.v|
+!i113 1
+R8
+R9
+vshift_left_reg
+R12
+!i10b 1
+!s100 YKEBElQHebWCMNm1`NGhE2
+R1
+IXa227h`F[eafH;:fNkmm`1
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_left_reg.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_left_reg.v
+!i122 319
+L0 1 21
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_left_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_left_reg.v|
+!i113 1
+R8
+R9
+vshift_right_reg
+R12
+!i10b 1
+!s100 AQU6anK=0NzG9:A[LdLz02
+R1
+I<AM7UoAjKczY3WK:CHk]Y1
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_right_reg.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_right_reg.v
+!i122 320
+L0 1 15
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_right_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/shift_right_reg.v|
+!i113 1
+R8
+R9
+vtb
+R12
+!i10b 1
+!s100 VCnM_lX`C7Wl^ORRJQKnR0
+R1
+IAWHfhGMGfXE]@62BcO:;V0
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v
+!i122 321
+L0 2 18
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v|
+!i113 1
+R8
+R9
+vtop
+R12
+!i10b 1
+!s100 ?9MYGGfmicP=QgRIlRNmn3
+R1
+IVL_enIf[e>Hm0QGN6_agJ3
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/top.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/top.v
+!i122 322
+R11
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/top.v|
+!i113 1
+R8
+R9
+vzero_extend
+R12
+!i10b 1
+!s100 9N2L6BYlaaNG?5EnQb:g53
+R1
+IMIlm?5QUX>c2o3Fk`=i^?1
+R2
+R3
+R15
+8C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/zero_extend.v
+FC:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/zero_extend.v
+!i122 323
+R10
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/zero_extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/zero_extend.v|
+!i113 1
+R8
+R9

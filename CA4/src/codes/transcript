@@ -1,0 +1,288 @@
+# Compile of adder.v was successful.
+# Compile of comparator.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of initial_part.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux.v was successful.
+# Compile of ov_detector.v was successful.
+# Compile of pipe.v was successful.
+# Compile of register.v was successful.
+# Compile of tb.v was successful.
+# Compile of testbench.sv was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+# Compile of adder.v was successful.
+# Compile of comparator.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of initial_part.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux.v was successful.
+# Compile of ov_detector.v was successful.
+# Compile of pipe.v was successful.
+# Compile of register.v was successful.
+# Compile of tb.v was successful.
+# Compile of testbench.sv was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 20:51:53 on Nov 22,2024
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.initial_part
+# Loading work.zero_extend
+# Loading work.mux
+# Loading work.pipe
+# Loading work.comparator
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.ov_detector
+# Loading work.register
+# Loading work.controller
+# Loading work.counter
+add wave -position end  sim:/tb/clk
+add wave -position end  sim:/tb/error
+add wave -position end  sim:/tb/N
+add wave -position end  sim:/tb/overflow
+add wave -position end  sim:/tb/ready
+add wave -position end  sim:/tb/rst
+add wave -position end  sim:/tb/start
+add wave -position end  sim:/tb/valid
+add wave -position end  sim:/tb/X
+add wave -position end  sim:/tb/Y
+run -all
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+add wave -position 3  sim:/tb/CUT/new_N
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+restart -f
+# Compile of controller.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+restart -f
+# Compile of controller.v was successful.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+# Compile of tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+add wave -position 2  sim:/tb/CUT/cont/err
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(46)
+#    Time: 380 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 46
+# Compile of controller.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(57)
+#    Time: 480 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 57
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(57)
+#    Time: 480 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 57
+# Compile of tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+restart -f
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+add wave -position end  sim:/tb/CUT/cont/ps
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+restart -f
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(60)
+#    Time: 520 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 60
+# Compile of controller.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(64)
+#    Time: 560 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 64
+restart
+# Compile of tb.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(65)
+#    Time: 570 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 65
+# Compile of controller.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v(65)
+#    Time: 570 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v line 65
+quit -sim
+# End time: 21:23:25 on Nov 22,2024, Elapsed time: 0:31:32
+# Errors: 0, Warnings: 1
+cd C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/trunk/sim

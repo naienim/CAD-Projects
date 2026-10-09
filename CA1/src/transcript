@@ -1,0 +1,786 @@
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 14:44:22 on Oct 17,2024
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+add wave -position end  sim:/tb/clk
+add wave -position end  sim:/tb/done
+add wave -position end  sim:/tb/rst
+add wave -position end  sim:/tb/start
+run -all
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'address'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$writemem' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 5120 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 5160 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 6040 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 6080 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 8640 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 8680 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 9840 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 9880 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 10760 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 10800 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 11680 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 11720 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 14 us  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 14040 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 14920 ns  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 14960 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 15 us  Iteration: 3  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$writemem'
+#    Time: 15040 ns  Iteration: 1  Process: /tb/cut/dp/out_ram/#ALWAYS#4 File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.zero_extend
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$writemem' is not defined.
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/out_ram File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/output_ram.v Line: 9
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+# Compile of adder.v was successful.
+# Compile of concat.v was successful.
+# Compile of controller.v was successful.
+# Compile of counter.v was successful.
+# Compile of datapath.v was successful.
+# Compile of down_counter.v was successful.
+# Compile of input_ram.v was successful.
+# Compile of mult.v was successful.
+# Compile of output_ram.v was successful.
+# Compile of register.v was successful.
+# Compile of shift_left_reg.v was successful.
+# Compile of shift_right_reg.v was successful.
+# Compile of tb.v was successful.
+# Compile of top.v was successful.
+# Compile of zero_extend.v was successful.
+# 15 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.datapath
+# Loading work.counter
+# Loading work.input_ram
+# Loading work.shift_left_reg
+# Loading work.concat
+# Loading work.register
+# Loading work.mult
+# Loading work.zero_extend
+# Loading work.shift_right_reg
+# Loading work.output_ram
+# Loading work.adder
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'pout'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/down_counter.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/cut/dp/down_cnt File: C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/datapath.v Line: 45
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v(16)
+#    Time: 50200 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/USER/myFolder/mainFolder/cad/CA1/CA1/tb.v line 16
+quit -sim
+# End time: 15:47:28 on Oct 17,2024, Elapsed time: 1:03:06
+# Errors: 0, Warnings: 3

@@ -1,0 +1,57 @@
+C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circular_buffer_tb
+
+Top level modules:
+	circular_buffer_tb
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circular_buffer
+
+Top level modules:
+	circular_buffer
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer_fifo
+
+Top level modules:
+	buffer_fifo
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/controller.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circular_buffer
+
+Top level modules:
+	circular_buffer
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module buffer_fifo
+
+Top level modules:
+	buffer_fifo
+
+} {} {}} C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_tb.v {1 {vlog -work work -stats=none C:/Users/USER/myFolder/mainFolder/cad/CA2/CA2/circular_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circular_buffer_tb
+
+Top level modules:
+	circular_buffer_tb
+
+} {} {}}

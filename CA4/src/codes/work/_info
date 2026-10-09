@@ -1,0 +1,358 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder
+Z0 !s110 1732296102
+!i10b 1
+!s100 hDRWfL6MnbTmF3W^FEH3]0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_J]`?<19MAfdQ<lXJQn<b0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes
+w1732032591
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/adder.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/adder.v
+!i122 136
+Z4 L0 1 3
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1732296102.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/adder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vcomparator
+R0
+!i10b 1
+!s100 iM2QMAh5QA1;HO]RN8S@A1
+R1
+I[49CnQhfIFcFa_fT<bH8;1
+R2
+R3
+w1732032630
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/comparator.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/comparator.v
+!i122 137
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/comparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/comparator.v|
+!i113 1
+R7
+R8
+vcontroller
+!s110 1732297947
+!i10b 1
+!s100 V0BQoa5W;7ij>^OFzojM50
+R1
+IKQM0P8>f1zhELcfXn0P2=1
+R2
+R3
+w1732297940
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/controller.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/controller.v
+!i122 167
+L0 12 57
+R5
+r1
+!s85 0
+31
+!s108 1732297947.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/controller.v|
+!i113 1
+R7
+R8
+vcounter
+R0
+!i10b 1
+!s100 h^lYGWEAkZ^T5n;O]ZJBN3
+R1
+IjOhGKCUo96HYJbcg9eESA2
+R2
+R3
+w1732019492
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/counter.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/counter.v
+!i122 139
+L0 2 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/counter.v|
+!i113 1
+R7
+R8
+vdatapath
+R0
+!i10b 1
+!s100 KA@MP9gzP?jlGRoNc_gRL1
+R1
+I>iaN9OKHfh:PB;Hz2SFzV0
+R2
+R3
+w1732295812
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/datapath.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/datapath.v
+!i122 140
+L0 1 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/datapath.v|
+!i113 1
+R7
+R8
+vinitial_part
+R0
+!i10b 1
+!s100 C3UQbf33H_mS_:?6Hbkjg1
+R1
+I49NZS7VNa7_[POiPUo];^3
+R2
+R3
+w1732019691
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/initial_part.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/initial_part.v
+!i122 141
+L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/initial_part.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/initial_part.v|
+!i113 1
+R7
+R8
+vmultiplier
+R0
+!i10b 1
+!s100 bmkN=RhEECQBfD_2HXYKR2
+R1
+I<PW;oLHja54:CZCTbBb<]3
+R2
+R3
+w1732032683
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/multiplier.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/multiplier.v
+!i122 142
+Z9 L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/multiplier.v|
+!i113 1
+R7
+R8
+vmux
+R0
+!i10b 1
+!s100 @nTk@U@VdO81CX6PA@ehf0
+R1
+I6LOD@UgFWOjIIYf<O0aHB0
+R2
+R3
+w1732009082
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/mux.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/mux.v
+!i122 143
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/mux.v|
+!i113 1
+R7
+R8
+vov_detector
+R0
+!i10b 1
+!s100 U:AI`?ggTDVDC@HhR68Wo1
+R1
+I10k5J2AL6hakc>KVUU8kk2
+R2
+R3
+w1732019856
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/ov_detector.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/ov_detector.v
+!i122 144
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/ov_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/ov_detector.v|
+!i113 1
+R7
+R8
+vpipe
+Z10 !s110 1732296103
+!i10b 1
+!s100 hom[ChN]SYk2Aj:PHGz=C3
+R1
+I14fLKV2BB^Qe?N2hic]E42
+R2
+R3
+w1732032968
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/pipe.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/pipe.v
+!i122 145
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/pipe.v|
+!i113 1
+R7
+R8
+vregister
+R10
+!i10b 1
+!s100 8HnG7W5B;`91XY@Ob1jk10
+R1
+IeJ@VQchfc?4iKWOl1i2O:1
+R2
+R3
+w1732020030
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/register.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/register.v
+!i122 146
+L0 1 13
+R5
+r1
+!s85 0
+31
+Z11 !s108 1732296103.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/register.v|
+!i113 1
+R7
+R8
+vtb
+!s110 1732297699
+!i10b 1
+!s100 X5C;RnZEc5jX5@82m:ae:0
+R1
+IeBDoEJl0TOQY7Wg1HXDLX0
+R2
+R3
+w1732297682
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v
+!i122 166
+L0 2 67
+R5
+r1
+!s85 0
+31
+!s108 1732297699.000000
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/tb.v|
+!i113 1
+R7
+R8
+vtestbench
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R10
+!i10b 1
+!s100 SD5U>?hWON:oVa6c:e]=]3
+R1
+I@b]U]nV_>K08MAKZJdc5j1
+R2
+S1
+R3
+w1732116227
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/testbench.sv
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/testbench.sv
+!i122 148
+L0 7 102
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/testbench.sv|
+!i113 1
+o-work work -sv
+R8
+vtop
+R10
+!i10b 1
+!s100 I^h7KOP33;k?7LAgj5KRG1
+R1
+IzOSB==@nYXK9;BYIiBOG83
+R2
+R3
+w1732295857
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/top.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/top.v
+!i122 149
+L0 1 11
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/top.v|
+!i113 1
+R7
+R8
+vzero_extend
+R10
+!i10b 1
+!s100 >T[6iNdeaN]fie5P46<m03
+R1
+I=KR3Xd[k2Q:l9inhe>Dl03
+R2
+R3
+w1732021308
+8C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/zero_extend.v
+FC:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/zero_extend.v
+!i122 150
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/zero_extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/myFolder/mainFolder/cad/midterm/answer/codes/zero_extend.v|
+!i113 1
+R7
+R8

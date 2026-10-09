@@ -1,0 +1,42 @@
+# Compile of buffer.v was successful.
+# Compile of circular_buffer.v was successful.
+# Compile of circular_tb.v was successful.
+# Compile of controller.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.circular_buffer_tb
+# vsim -gui work.circular_buffer_tb 
+# Start time: 15:38:05 on Nov 02,2024
+# Loading work.circular_buffer_tb
+# Loading work.circular_buffer
+# Loading work.buffer_fifo
+# Loading work.controller
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (8) for port 'write_ptr_out'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /circular_buffer_tb/uut/fifo File: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (8) for port 'read_ptr_out'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/buffer.v(3).
+#    Time: 0 ns  Iteration: 0  Instance: /circular_buffer_tb/uut/fifo File: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (8) for port 'write_ptr'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /circular_buffer_tb/uut/cont File: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (8) for port 'read_ptr'. The port definition is at: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/controller.v(4).
+#    Time: 0 ns  Iteration: 0  Instance: /circular_buffer_tb/uut/cont File: C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_buffer.v Line: 13
+add wave -position end  sim:/circular_buffer_tb/BUFFER_SIZE
+add wave -position end  sim:/circular_buffer_tb/clk
+add wave -position end  sim:/circular_buffer_tb/data_out
+add wave -position end  sim:/circular_buffer_tb/DATA_WIDTH
+add wave -position end  sim:/circular_buffer_tb/empty
+add wave -position end  sim:/circular_buffer_tb/full
+add wave -position end  sim:/circular_buffer_tb/inp
+add wave -position end  sim:/circular_buffer_tb/r_enable
+add wave -position end  sim:/circular_buffer_tb/R_PARAM
+add wave -position end  sim:/circular_buffer_tb/ready
+add wave -position end  sim:/circular_buffer_tb/rst
+add wave -position end  sim:/circular_buffer_tb/valid
+add wave -position end  sim:/circular_buffer_tb/w_enable
+add wave -position end  sim:/circular_buffer_tb/W_PARAM
+add wave -position end  sim:/circular_buffer_tb/uut/fifo/buffer
+run -all
+# ** Note: $stop    : C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v(142)
+#    Time: 270 ns  Iteration: 0  Instance: /circular_buffer_tb
+# Break in Module circular_buffer_tb at C:/Users/USER/myFolder/mainFolder/cad/CA2/ans/CA2/circular_tb.v line 142
+quit -sim
+# End time: 15:41:36 on Nov 02,2024, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 9
